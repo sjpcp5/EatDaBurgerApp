@@ -1,4 +1,5 @@
 const mysql = require('mysql')
+const pn = require('../password')
 
 const connection = mysql.createConnection({
   host: 'localhost',
@@ -10,7 +11,7 @@ const connection = mysql.createConnection({
   user: 'root',
 
   // Your password
-  password: 'yourPassword',
-  database: 'theCompany_db'
+  password: pn,
+  database: 'burgerDB'
 })
 module.exports(connection)
