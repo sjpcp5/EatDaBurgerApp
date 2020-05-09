@@ -1,4 +1,4 @@
-INSERT INTO burgers (burgerName)
-VALUES("cheeseburger"),
-  ("vegan blackbean"),
-  ("turkey");
+INSERT INTO burgers (burgerName, devoured)
+VALUES("cheeseburger", false),
+  ("vegan blackbean", false),
+  ("turkey", true);

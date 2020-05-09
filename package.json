@@ -5,16 +5,14 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sjpcp5/EatDaBurgerApp.git"
   },
-  "keywords": [
-    "burger",
-    "mvc"
-  ],
+  "keywords": ["burger", "mvc"],
   "author": "sjpcp5",
   "license": "MIT",
   "bugs": {

@@ -1,8 +1,12 @@
 const express = require('express')
+const morgan = require('morgan')
 
 const PORT = process.env.PORT || 3000
 
 var app = express()
+
+// Morgan for logging on server in terminal
+app.use(morgan('tiny'))
 
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static('public'))
