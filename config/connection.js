@@ -14,4 +14,4 @@ const connection = mysql.createConnection({
   password: pn,
   database: 'burgerDB'
 })
-module.exports(connection)
+module.exports = connection

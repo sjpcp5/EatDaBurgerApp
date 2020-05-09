@@ -5,7 +5,7 @@ var burger = require('../models/burger')
 router.get('/', function (req, res) {
   burger.all(function (data) {
     var hbsObject = {
-      burgerName: data
+      burgers: data
     }
     console.log(hbsObject)
     res.render('index', hbsObject)
@@ -43,4 +43,4 @@ router.put('/api/burgers/:id', function (req, res) {
   )
 })
 
-module.exports(router)
+module.exports = router

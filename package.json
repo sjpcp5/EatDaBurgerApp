@@ -12,7 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/sjpcp5/EatDaBurgerApp.git"
   },
-  "keywords": ["burger", "mvc"],
+  "keywords": [
+    "burger",
+    "mvc"
+  ],
   "author": "sjpcp5",
   "license": "MIT",
   "bugs": {
@@ -22,6 +25,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
+    "morgan": "^1.10.0",
     "mysql": "^2.18.1"
   }
 }

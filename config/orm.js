@@ -1,6 +1,5 @@
-const connection = require('./connection')
+const connection = require('./connection.js')
 // Import MySQL connection.
-var connection = require('../config/connection.js')
 
 // Helper function for SQL syntax.
 // Let's say we want to pass 3 values into the mySQL query.
