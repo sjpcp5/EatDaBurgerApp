@@ -1,5 +1,5 @@
 const mysql = require('mysql')
-const pn = require('../password')
+// const pn = require('../password')
 var connection
 
 if (process.env.JAWDB_URL) {
@@ -15,7 +15,7 @@ if (process.env.JAWDB_URL) {
     user: 'root',
 
     // Your password
-    password: pn,
+    password: 'YourPassword',
     database: 'burgerDB'
   })
 }
