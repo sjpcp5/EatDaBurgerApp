@@ -4,4 +4,4 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
 ## Deployed App
 
-![Link to deployed App](https://rocky-headland-54238.herokuapp.com/)
+[Link to deployed App](https://rocky-headland-54238.herokuapp.com/)
